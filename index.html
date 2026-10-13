@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GTM Test</title>
-  <!-- Replace GTM-XXXX with your GTM Container ID -->
+  <title>GTM Test Page</title>
+
+  <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-XXXX');</script>
+  })(window,document,'script','dataLayer','GTM-PXP6FG4W');</script>
+  <!-- End Google Tag Manager -->
+
 </head>
 <body>
-  <h1>GTM Test Page</h1>
-  <p>Page loaded - tags should fire!</p>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXP6FG4W"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <h1>Flytxt GTM Test Page</h1>
+  <p>Page loaded - GTM tags will fire!</p>
   <button onclick="dataLayer.push({'event':'test_click'})">Test Click Event</button>
+
 </body>
 </html>
